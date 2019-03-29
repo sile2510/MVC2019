@@ -128,12 +128,15 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KreiranjeKontroleraController.cs" />
+    <Compile Include="Controllers\OsobaController.cs" />
     <Compile Include="Controllers\PozdravSvijeteController.cs" />
     <Compile Include="Controllers\PrviController.cs" />
+    <Compile Include="Controllers\SimpleBindingController.cs" />
     <Compile Include="Controllers\Zbirka1Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Osoba.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -174,11 +177,13 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\PozdravSvijete\Index.cshtml" />
     <Content Include="Views\Zbirka1\Index.cshtml" />
+    <Content Include="Views\SimpleBinding\SimpleBindMetoda.cshtml" />
+    <Content Include="Views\Osoba\PopuniOsobu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\KreiranjeKontrolera\" />
+    <Folder Include="Views\Osobe\" />
     <Folder Include="Views\Prvi\" />
   </ItemGroup>
   <ItemGroup>
