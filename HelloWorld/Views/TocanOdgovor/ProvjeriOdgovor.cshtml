@@ -1,0 +1,31 @@
+﻿@model string
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ProvjeriOdgovor</title>
+</head>
+<body>
+    <div> 
+        <form method="post">
+            <label>Glavna država?</label><br/><hr />
+            <input type="radio" name="odgovor" value="Bugarska" /> Bugarska<br />
+            <input type="radio" name="odgovor" value="Estonija" /> Estonija<br />
+            <input type="radio" name="odgovor" value="Azerbajđan" /> Azerbajđan<br />
+            <input type="radio" name="odgovor" value="Mikronezija" /> Mikronezija<br />
+            <p>
+                <button type="submit">Pošalji odgovor</button>
+            </p>
+
+        </form>
+    </div>
+    <p>
+        <label style="font-weight:bold;">@Model</label>
+    </p>
+</body>
+</html>

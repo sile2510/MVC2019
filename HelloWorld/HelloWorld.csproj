@@ -126,12 +126,14 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BrojGodinaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KreiranjeKontroleraController.cs" />
     <Compile Include="Controllers\OsobaController.cs" />
     <Compile Include="Controllers\PozdravSvijeteController.cs" />
     <Compile Include="Controllers\PrviController.cs" />
     <Compile Include="Controllers\SimpleBindingController.cs" />
+    <Compile Include="Controllers\TocanOdgovorController.cs" />
     <Compile Include="Controllers\Zbirka1Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -179,6 +181,8 @@
     <Content Include="Views\Zbirka1\Index.cshtml" />
     <Content Include="Views\SimpleBinding\SimpleBindMetoda.cshtml" />
     <Content Include="Views\Osoba\PopuniOsobu.cshtml" />
+    <Content Include="Views\BrojGodina\RacunajBrojGodina.cshtml" />
+    <Content Include="Views\TocanOdgovor\ProvjeriOdgovor.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
