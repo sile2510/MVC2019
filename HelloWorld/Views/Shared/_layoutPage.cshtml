@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <img src="https://cdn.shopify.com/s/files/1/1094/4892/products/art-zidne-slike-fire-flover---ap066art-zidne-slikelife-decorlife-decor-15090455_580x@2x.jpg?v=1539943588" />
+    </div>
+    <div>
+        <a href="/LayoutSection/Stranica1">Stranica1</a> | <a href="/LayoutSection/Stranica2">Stranica2</a>
+    </div>
+    <div>
+        @RenderBody()
+
+    </div>
+    <div>
+        @RenderSection("Detalji", false)
+    </div>
+</body>
+</html>

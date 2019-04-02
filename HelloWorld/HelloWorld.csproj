@@ -129,6 +129,7 @@
     <Compile Include="Controllers\BrojGodinaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KreiranjeKontroleraController.cs" />
+    <Compile Include="Controllers\LayoutSectionController.cs" />
     <Compile Include="Controllers\OsobaController.cs" />
     <Compile Include="Controllers\PozdravSvijeteController.cs" />
     <Compile Include="Controllers\PrviController.cs" />
@@ -185,12 +186,16 @@
     <Content Include="Views\BrojGodina\RacunajBrojGodina.cshtml" />
     <Content Include="Views\TocanOdgovor\ProvjeriOdgovor.cshtml" />
     <Content Include="Views\RazorSintaksa\ViewZaForPetlju.cshtml" />
+    <Content Include="Views\LayoutSection\Stranica1.cshtml" />
+    <Content Include="Views\LayoutSection\Stranica2.cshtml" />
+    <Content Include="Views\Shared\_layoutPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\KreiranjeKontrolera\" />
     <Folder Include="Views\Osobe\" />
     <Folder Include="Views\Prvi\" />
+    <Folder Include="Views\Shared folder\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
