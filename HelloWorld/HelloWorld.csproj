@@ -132,6 +132,7 @@
     <Compile Include="Controllers\OsobaController.cs" />
     <Compile Include="Controllers\PozdravSvijeteController.cs" />
     <Compile Include="Controllers\PrviController.cs" />
+    <Compile Include="Controllers\RazorSintaksaController.cs" />
     <Compile Include="Controllers\SimpleBindingController.cs" />
     <Compile Include="Controllers\TocanOdgovorController.cs" />
     <Compile Include="Controllers\Zbirka1Controller.cs" />
@@ -183,6 +184,7 @@
     <Content Include="Views\Osoba\PopuniOsobu.cshtml" />
     <Content Include="Views\BrojGodina\RacunajBrojGodina.cshtml" />
     <Content Include="Views\TocanOdgovor\ProvjeriOdgovor.cshtml" />
+    <Content Include="Views\RazorSintaksa\ViewZaForPetlju.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
