@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.2.1_TemplatedHelper", "6.2.1_TemplatedHelper\6.2.1_TemplatedHelper.csproj", "{C9BC652E-B1C4-4899-B909-D9D0732A70A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "validacije1", "validacije1\validacije1.csproj", "{F0BD3EAB-6427-4809-BD41-310CF8B1B2F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C9BC652E-B1C4-4899-B909-D9D0732A70A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9BC652E-B1C4-4899-B909-D9D0732A70A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9BC652E-B1C4-4899-B909-D9D0732A70A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0BD3EAB-6427-4809-BD41-310CF8B1B2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0BD3EAB-6427-4809-BD41-310CF8B1B2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0BD3EAB-6427-4809-BD41-310CF8B1B2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0BD3EAB-6427-4809-BD41-310CF8B1B2F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
