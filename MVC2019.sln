@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.2.1_TemplatedHelper", "6.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "validacije1", "validacije1\validacije1.csproj", "{F0BD3EAB-6427-4809-BD41-310CF8B1B2F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spajanje_na_bazu", "spajanje_na_bazu\spajanje_na_bazu.csproj", "{FFB2433D-023B-47AD-9B2B-BA66C44B2507}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F0BD3EAB-6427-4809-BD41-310CF8B1B2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0BD3EAB-6427-4809-BD41-310CF8B1B2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0BD3EAB-6427-4809-BD41-310CF8B1B2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB2433D-023B-47AD-9B2B-BA66C44B2507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB2433D-023B-47AD-9B2B-BA66C44B2507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB2433D-023B-47AD-9B2B-BA66C44B2507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB2433D-023B-47AD-9B2B-BA66C44B2507}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
